@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "descriptions",
+  "info": {
+    "singularName": "description",
+    "pluralName": "descriptions",
+    "displayName": "Description",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "role": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "avatar": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "maxLength": 2048,
+      "regex": "https?://.*",
+      "minLength": 7
+    },
+    "profile_intro": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    }
+  }
+}
