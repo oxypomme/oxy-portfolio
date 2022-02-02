@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_git_repos",
+  "info": {
+    "displayName": "Git Repo",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "provider": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
