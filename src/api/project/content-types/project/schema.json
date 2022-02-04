@@ -104,6 +104,24 @@
       },
       "type": "string",
       "required": false
+    },
+    "domain": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "web",
+        "bot",
+        "software",
+        "portable_software",
+        "mobile",
+        "game"
+      ],
+      "required": true,
+      "default": "web"
     }
   }
 }
