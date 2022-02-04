@@ -77,6 +77,15 @@
         }
       },
       "type": "string"
+    },
+    "isApprentice": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": false
     }
   }
 }

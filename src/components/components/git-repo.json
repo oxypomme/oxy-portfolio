@@ -7,13 +7,16 @@
   },
   "options": {},
   "attributes": {
-    "provider": {
-      "type": "string",
-      "required": true
-    },
     "url": {
       "type": "string",
       "required": true
+    },
+    "provider": {
+      "type": "enumeration",
+      "enum": [
+        "GitHub",
+        "GitLab"
+      ]
     }
   }
 }
