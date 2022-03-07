@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "languages",
+  "info": {
+    "singularName": "language",
+    "pluralName": "languages",
+    "displayName": "Langages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "color": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

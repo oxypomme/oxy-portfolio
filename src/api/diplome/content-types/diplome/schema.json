@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diplomes",
+  "info": {
+    "singularName": "diplome",
+    "pluralName": "diplomes",
+    "displayName": "Diplomes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "start": {
+      "type": "date",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true
+    },
+    "end": {
+      "type": "date",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "isApprentice": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "logo": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    }
+  }
+}

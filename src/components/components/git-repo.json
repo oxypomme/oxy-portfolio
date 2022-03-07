@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_git_repos",
+  "info": {
+    "displayName": "Git Repo",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "provider": {
+      "type": "enumeration",
+      "enum": [
+        "GitHub",
+        "GitLab"
+      ]
+    }
+  }
+}
