@@ -59,14 +59,6 @@
       "default": false,
       "required": true
     },
-    "imageURL": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string"
-    },
     "languages": {
       "type": "relation",
       "relation": "oneToMany",
@@ -122,6 +114,19 @@
       ],
       "required": true,
       "default": "web"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }

@@ -20,8 +20,13 @@
     "color": {
       "type": "string"
     },
-    "icon": {
-      "type": "string"
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
