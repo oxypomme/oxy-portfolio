@@ -7,9 +7,9 @@ module.exports = [
       enabled: true,
       header: "*",
       origin: [
-        "oxypomme.fr",
-        "oxypomme.github.io",
-        "oxy-portfolio.herokuapp.com",
+        "https://oxypomme.fr",
+        "https://oxypomme.github.io",
+        "https://oxy-portfolio.herokuapp.com",
       ],
     },
   },
