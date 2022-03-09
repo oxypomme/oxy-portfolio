@@ -2,8 +2,7 @@ module.exports = [
   "strapi::errors",
   "strapi::security",
   {
-    // custom resolve to find a package or a path
-    resolve: "strapi::cors",
+    name: "strapi::cors",
     config: {
       origin: [
         "oxypomme.fr",
