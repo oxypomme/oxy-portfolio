@@ -20,8 +20,12 @@
     "color": {
       "type": "string"
     },
-    "icon": {
-      "type": "string"
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

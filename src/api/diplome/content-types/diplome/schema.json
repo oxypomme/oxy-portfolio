@@ -69,14 +69,6 @@
       "type": "boolean",
       "default": false,
       "required": true
-    },
-    "logo": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string"
     }
   }
 }

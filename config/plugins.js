@@ -14,6 +14,19 @@ module.exports = ({ env }) => {
   }
 
   return {
+    upload: {
+      config: {
+        provider: "strapi-provider-upload-ftp-v2",
+        providerOptions: {
+          host: env("FTP_HOST"),
+          port: env("FTP_PORT"),
+          user: env("FTP_USER"),
+          password: env("FTP_PASSWORD"),
+          basePath: env("FTP_PATH"),
+          baseUrl: env("FTP_URL"),
+        },
+      },
+    },
     email: {
       config: {
         provider: "sendmail",

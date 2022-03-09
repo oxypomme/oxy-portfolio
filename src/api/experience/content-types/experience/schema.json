@@ -70,14 +70,6 @@
       "type": "text",
       "required": false
     },
-    "logo": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string"
-    },
     "isApprentice": {
       "pluginOptions": {
         "i18n": {
