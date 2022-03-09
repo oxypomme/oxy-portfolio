@@ -25,17 +25,6 @@
       "type": "string",
       "required": true
     },
-    "avatar": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string",
-      "maxLength": 2048,
-      "regex": "https?://.*",
-      "minLength": 7
-    },
     "description": {
       "pluginOptions": {
         "i18n": {
@@ -69,6 +58,19 @@
         }
       },
       "type": "text"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "required": true
     }
   }
 }
