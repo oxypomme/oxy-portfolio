@@ -27,6 +27,11 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
