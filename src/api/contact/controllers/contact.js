@@ -21,6 +21,14 @@ const emailTemplate = {
 
 module.exports = {
   async send(ctx, next) {
+    if (
+      ["https://oxypomme.fr", "https://oxypomme.github.io"].includes(
+        ctx.request.origin
+      )
+    ) {
+      ctx.set("Access-Control-Allow-Origin", ctx.request.origin);
+    }
+
     const { email, name, text } = ctx.request.body;
     const params = {
       to: "tom.sublet@oxypomme.fr",
